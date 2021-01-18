@@ -1,10 +1,10 @@
 @font-face {
-  font-family: CastIron;
+  font-family: "CastIron";
   src: url("/medias/fonts/CastIron.otf") format("opentype");
 }
 
 @font-face {
-  font-family: Manrope;
+  font-family: "Manrope";
   src: url("/medias/fonts/Manrope-VariableFont_wght.ttf") format("truetype");
 }
 
@@ -15,6 +15,10 @@ a {
 a:hover {
   color: #2cd9ff;
   text-decoration: none;
+}
+
+body {
+  background-color: #101832;
 }
 
 nav {
@@ -41,34 +45,8 @@ nav {
           transform: rotate(90deg);
 }
 
-#checkNav:checked ~ #global {
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
-}
-
-#checkNav ~ #global {
-  -webkit-transform: translateY(0%);
-          transform: translateY(0%);
-}
-
 #checkNav {
   display: none;
-}
-
-#voirProjets {
-  background-color: #101832;
-}
-
-#inscription {
-  background-color: #1c2c5c;
-}
-
-#info {
-  background-color: #101832;
-}
-
-#trio {
-  background-color: #101832;
 }
 
 #infoBloc {
@@ -76,13 +54,13 @@ nav {
   padding: 1em 1em 3em 1em;
   margin: 0 auto;
   background-color: #e3e3e3;
-  font-family: Manrope;
+  font-family: "Manrope";
   -webkit-box-shadow: -5px 5px 0px 1px #000;
           box-shadow: -5px 5px 0px 1px #000;
 }
 
 #infoBloc h1 {
-  font-family: CastIron;
+  font-family: "CastIron";
   font-size: 2em;
 }
 
@@ -90,14 +68,7 @@ nav {
   display: none;
 }
 
-#footer {
-  background-color: #101832;
-}
-
 @media (min-width: 600px) {
-  body {
-    background: red;
-  }
   #navMobile,
   #checkNav {
     display: none;
@@ -148,9 +119,6 @@ nav {
         -ms-flex-align: end;
             align-items: flex-end;
   }
-  #info {
-    background-color: #101832;
-  }
   #infoBloc {
     width: 60vw;
     padding: 1em 4em 1em 1em;
@@ -173,7 +141,7 @@ nav {
     background-color: #1c2c5c;
     padding: 10px;
     margin-top: 0.5em;
-    font-family: CastIron;
+    font-family: "CastIron";
     font-size: 1.5em;
     color: #e3e3e3;
     letter-spacing: 0.08em;
@@ -186,11 +154,7 @@ nav {
 }
 
 @media (min-width: 1200px) {
-  body {
-    background: pink;
-  }
   #header {
-    background-color: #101832;
     color: #fff;
   }
   #header #barreDuHaut {
@@ -215,11 +179,8 @@ nav {
   }
   #header nav ul li {
     padding: 0.5em;
-    font-family: CastIron;
+    font-family: "CastIron";
     font-size: 2em;
-  }
-  #header nav ul li:nth-child(3) {
-    margin-right: 10.5em;
   }
   #header nav ul #actif {
     padding: 1em;
@@ -241,9 +202,6 @@ nav {
   }
   #header #caroussel #caroussel-images ul li {
     height: 300px;
-  }
-  #header #caroussel body {
-    background: pink;
   }
   #header #voirProjets {
     display: -webkit-box;

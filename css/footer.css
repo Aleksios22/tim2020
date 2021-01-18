@@ -81,7 +81,14 @@ section#footer #liensSociaux li a {
 }
 
 section#footer #footerNav {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-top: white solid 2px;
+  border-bottom: white solid 2px;
 }
 
 section#footer #droitAuteur {
@@ -90,7 +97,7 @@ section#footer #droitAuteur {
 }
 
 @media only screen and (min-width: 768px) {
-  .liste-contact {
+  section#footer .liste-contact {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -101,7 +108,7 @@ section#footer #droitAuteur {
             justify-content: space-evenly;
     padding-bottom: 4em;
   }
-  .information {
+  section#footer .information {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -113,8 +120,11 @@ section#footer #droitAuteur {
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  .information p {
+  section#footer .information p {
     margin: 0;
+  }
+  section#footer .information #footerNav li {
+    display: none;
   }
 }
 /*# sourceMappingURL=footer.css.map */
