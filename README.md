@@ -1,8 +1,8 @@
 
-Description : Prototype de jeu FPS en arène avec des armes changeant aléatoirement, de la lave montante et un environnement partiellement dynamique.
+Description : Refonte fictive du site web de la technique d'intégration multimédia (TIM) à Maisonneuve. Équipé d'un CMS "sans tête" et développé avec Vue.js
 
-Technologies utilisée / Technologies used : Unity 3D, C#, Autodesk Maya, photoshop.
+Technologies utilisée / Technologies used : Vue.js, HTML5, CSS3, javascript, tailwind, uiKit, Storyblock.
 
-    Équipe / Team : Alexis Rochon, Abdirahman Omar, Fabrizio Herrera Segovia et Jean-Luc Ho
+    Équipe / Team : Alexis Rochon, Sabrina Ales, Claudia Patry et Jean-Luc Ho
    
-URL : https://alexisrochon1.itch.io/gundomize
+URL : https://timmaisonneuve.netlify.app/#/
