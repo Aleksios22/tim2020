@@ -1,7 +1,8 @@
-URL : https://timmaisonneuve.netlify.app/#/
 
-Description : Site web développé pour Techniques d'intégration Multimédia du Collège de Maisonneuve, automne 2020.
+Description : Prototype de jeu FPS en arène avec des armes changeant aléatoirement, de la lave montante et un environnement partiellement dynamique.
 
-Technologies utilisée / Technologies used : framework Vue.js, Librairie UIkit, headless CMS Storyblok, SCSS, GIT et Netlify.
-                                            
-    Équipe / Team : Alexis Rochon, Jean-Luc Ho, Sabrina Ales, Lyna Tang, Claudia Patry
+Technologies utilisée / Technologies used : Unity 3D, C#, Autodesk Maya, photoshop.
+
+    Équipe / Team : Alexis Rochon, Abdirahman Omar, Fabrizio Herrera Segovia et Jean-Luc Ho
+   
+URL : https://alexisrochon1.itch.io/gundomize
